@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(8, 19, 31, 0.91);
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    height: 50px;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: 12px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('https://cdn.theanimegallery.com/theanimegallery/042a3afe-1eef-4234-a26d-1841bf763434-types-of-anime.webp');
+    /* mix-blend-mode: multiply; */
+}
+.bottom{
+    position: sticky;
+    height: 12vh;
+    background-color:black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+   margin-top: -7px;
+}
+.icons i{
+   cursor: pointer; 
+}
+.songItem{
+    height: 79px;
+    display: flex;
+    background-color: rgb(119, 232, 232);
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 105px;
+    margin: 0 23px;
+}
+.songduration{
+    padding: 0 0 0 30px;
+}
+.songduration i{
+    cursor: pointer;
+}
+.songgif{
+    position: absolute;
+    left: 0;
+
+}
+.songgif img{
+    height: 63px;
+    padding: 0px 33px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#masterSongName{
+    padding: 0 26px;
+    font-family: "Raleway", sans-serif;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songName{
+    font-family: "Raleway", sans-serif;
+
+}
+.playButton{
+    margin: 0 26px 0 0 ;
+}
+.playButton i{
+    cursor: pointer;
+}
